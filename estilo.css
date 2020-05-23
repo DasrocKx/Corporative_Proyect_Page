@@ -1,0 +1,29 @@
+.Contenedor{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+ 
+.Texto-Encima{
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+.Centrado{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.Mas-Arriba{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.Mas-Abajo{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
